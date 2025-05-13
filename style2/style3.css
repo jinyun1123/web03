@@ -1,0 +1,253 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Chocolate Classical Sans", sans-serif;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.chocolate-classical-sans-regular {
+  font-family: "Chocolate Classical Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  height: 80%;
+}
+
+body {
+  height: 80%;
+  background-image: url(../images/hawaii2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+body .picshadow {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  min-height: 90vh;
+  position: absolute;
+  z-index: -1;
+}
+body header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: white;
+  box-shadow: 0 0 5px 1px #757474;
+}
+body header div.logo {
+  display: flex;
+  align-items: center;
+  flex: 5 1 400px;
+  margin-left: 2rem;
+}
+body header img {
+  width: 6vw;
+  height: 6vw;
+  margin-right: 5px;
+}
+body header h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-right: 10px;
+}
+body nav {
+  flex: 2 1 400px;
+}
+body nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+body nav ul li a {
+  color: #09777d;
+  text-decoration: none;
+  font-size: 1.35rem;
+}
+body nav ul li a:hover {
+  color: #ff5722;
+}
+body .login {
+  background-color: white;
+  width: 20vw;
+  height: 25vw;
+  border-radius: 2rem;
+  border: 0.1rem dashed #0f736b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 40rem;
+  margin-top: 10rem;
+}
+body .login form label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1a1919;
+  text-align: center;
+}
+body .login form [type=text],
+body .login form [type=password] {
+  margin-top: 1rem;
+  border-radius: 2rem;
+}
+body .login form [type=reset],
+body .login form [type=submit] {
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+body .login form [type=reset]:hover,
+body .login form [type=submit]:hover {
+  color: #0f736b;
+  font-weight: bold;
+}
+body .login p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+body .login p a {
+  text-decoration: none;
+}
+body .login p a:hover {
+  color: red;
+}
+body .button {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: end;
+}/*# sourceMappingURL=style3.css.map */

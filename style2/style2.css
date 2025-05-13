@@ -1,0 +1,244 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Chocolate Classical Sans", sans-serif;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.chocolate-classical-sans-regular {
+  font-family: "Chocolate Classical Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url(../images/hawaii.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+body header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: white;
+  box-shadow: 0px 0px 5px 1px #757474;
+}
+body header div.logo {
+  display: flex;
+  align-items: center;
+  flex: 5 1 400px;
+  margin-left: 2rem;
+}
+body header div.logo img {
+  width: 6vw;
+  height: 6vw;
+  margin-right: 5px;
+}
+body header div.logo h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-right: 10px;
+}
+body header nav {
+  flex: 2 1 400px;
+}
+body header nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+body header nav ul li a {
+  color: #09777d;
+  text-decoration: none;
+  font-size: 1.35rem;
+}
+body header nav ul li a:hover {
+  color: #ff5722;
+}
+body .watermark {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100vw;
+  min-height: 90vh;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+}
+body .watermark .container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .watermark .container .section2,
+body .watermark .container .section3 {
+  margin-top: 2rem;
+}
+body .watermark .container h1 {
+  font-weight: bolder;
+  font-size: 3rem;
+  color: #87ceeb;
+}
+body .watermark .container p {
+  font-size: 2rem;
+  color: white;
+  margin-top: 2rem;
+  text-align: center;
+}
+body .watermark .container h3 {
+  color: #ffd700;
+  font-size: 2rem;
+  font-weight: bold;
+}/*# sourceMappingURL=style2.css.map */
